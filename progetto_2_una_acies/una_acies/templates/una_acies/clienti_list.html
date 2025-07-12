@@ -1,0 +1,42 @@
+{% extends "una_acies/base.html" %}
+
+{% block sidebar %}
+<h5>Filtri Clienti</h5>
+<form method="get">
+  <div class="mb-3">
+    <label for="citta" class="form-label">Città</label>
+    <input id="citta" name="citta" type="text" class="form-control" value="{{ filtro_citta }}">
+  </div>
+  <div class="mb-3">
+    <label for="ragione" class="form-label">Ragione Sociale</label>
+    <input id="ragione" name="ragione" type="text" class="form-control" value="{{ filtro_ragione }}">
+  </div>
+  <button type="submit" class="btn btn-primary btn-sm">Filtra</button>
+</form>
+{% endblock sidebar %}
+
+{% block content %}
+<h2>Clienti</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Codice</th>
+            <th>Codice Fiscale</th>
+            <th>Ragione Sociale</th>
+            <th>Indirizzo</th>
+            <th>Città</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for cliente in clienti %}
+        <tr>
+            <td>{{ cliente.codice }}</td>
+            <td>{{ cliente.codice_fiscale }}</td>
+            <td>{{ cliente.ragione_sociale }}</td>
+            <td>{{ cliente.indirizzo }}</td>
+            <td>{{ cliente.citta }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

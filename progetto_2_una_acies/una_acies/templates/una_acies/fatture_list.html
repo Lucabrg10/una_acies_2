@@ -1,0 +1,42 @@
+{% extends "una_acies/base.html" %}
+
+{% block sidebar %}
+<h5>Filtri Fatture</h5>
+<form method="get">
+  <div class="mb-3">
+    <label for="data_da" class="form-label">Data da:</label>
+    <input id="data_da" name="data_da" type="date" class="form-control" value="{{ filtro_da }}">
+  </div>
+  <div class="mb-3">
+    <label for="data_a" class="form-label">Data a:</label>
+    <input id="data_a" name="data_a" type="date" class="form-control" value="{{ filtro_a }}">
+  </div>
+  <button type="submit" class="btn btn-primary btn-sm">Filtra</button>
+</form>
+{% endblock sidebar %}
+
+{% block content %}
+<h2>Fatture</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Codice</th>
+            <th>Data</th>
+            <th>Imponibile</th>
+            <th>IVA</th>
+            <th>Totale</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for f in fatture %}
+        <tr>
+            <td>{{ f.codice }}</td>
+            <td>{{ f.data }}</td>
+            <td>{{ f.imponibile }}</td>
+            <td>{{ f.iva }}</td>
+            <td>{{ f.totale }}</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

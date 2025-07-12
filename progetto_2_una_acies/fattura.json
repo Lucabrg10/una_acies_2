@@ -1,0 +1,502 @@
+[
+    {
+        "model": "una_acies.fattura",
+        "pk": 1,
+        "fields": {
+            "data": "2025-02-23",
+            "imponibile": 293.89,
+            "iva": 29.39,
+            "totale": 323.28
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 2,
+        "fields": {
+            "data": "2025-01-24",
+            "imponibile": 571.03,
+            "iva": 57.1,
+            "totale": 628.13
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 3,
+        "fields": {
+            "data": "2025-01-02",
+            "imponibile": 713.45,
+            "iva": 71.35,
+            "totale": 784.8
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 4,
+        "fields": {
+            "data": "2025-02-06",
+            "imponibile": 414.05,
+            "iva": 41.41,
+            "totale": 455.46
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 5,
+        "fields": {
+            "data": "2025-02-05",
+            "imponibile": 473.09,
+            "iva": 47.31,
+            "totale": 520.4
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 6,
+        "fields": {
+            "data": "2025-02-26",
+            "imponibile": 354.4,
+            "iva": 35.44,
+            "totale": 389.84
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 7,
+        "fields": {
+            "data": "2025-01-06",
+            "imponibile": 530.9,
+            "iva": 53.09,
+            "totale": 583.99
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 8,
+        "fields": {
+            "data": "2025-02-22",
+            "imponibile": 93.19,
+            "iva": 9.32,
+            "totale": 102.51
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 9,
+        "fields": {
+            "data": "2025-01-28",
+            "imponibile": 412.66,
+            "iva": 41.27,
+            "totale": 453.93
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 10,
+        "fields": {
+            "data": "2025-02-07",
+            "imponibile": 415.28,
+            "iva": 41.53,
+            "totale": 456.81
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 11,
+        "fields": {
+            "data": "2025-01-21",
+            "imponibile": 214.28,
+            "iva": 21.43,
+            "totale": 235.71
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 12,
+        "fields": {
+            "data": "2025-01-08",
+            "imponibile": 392.34,
+            "iva": 39.23,
+            "totale": 431.57
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 13,
+        "fields": {
+            "data": "2025-02-16",
+            "imponibile": 359.69,
+            "iva": 35.97,
+            "totale": 395.66
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 14,
+        "fields": {
+            "data": "2025-01-23",
+            "imponibile": 348.64,
+            "iva": 34.86,
+            "totale": 383.5
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 15,
+        "fields": {
+            "data": "2025-01-06",
+            "imponibile": 224.99,
+            "iva": 22.5,
+            "totale": 247.49
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 16,
+        "fields": {
+            "data": "2025-02-04",
+            "imponibile": 133.08,
+            "iva": 13.31,
+            "totale": 146.39
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 17,
+        "fields": {
+            "data": "2025-02-28",
+            "imponibile": 183.74,
+            "iva": 18.37,
+            "totale": 202.11
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 18,
+        "fields": {
+            "data": "2025-01-10",
+            "imponibile": 739.27,
+            "iva": 73.93,
+            "totale": 813.2
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 19,
+        "fields": {
+            "data": "2025-01-15",
+            "imponibile": 112.03,
+            "iva": 11.2,
+            "totale": 123.23
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 20,
+        "fields": {
+            "data": "2025-02-21",
+            "imponibile": 392.44,
+            "iva": 39.24,
+            "totale": 431.68
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 21,
+        "fields": {
+            "data": "2025-01-21",
+            "imponibile": 364.12,
+            "iva": 36.41,
+            "totale": 400.53
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 22,
+        "fields": {
+            "data": "2025-01-13",
+            "imponibile": 126.77,
+            "iva": 12.68,
+            "totale": 139.45
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 23,
+        "fields": {
+            "data": "2025-01-11",
+            "imponibile": 362.57,
+            "iva": 36.26,
+            "totale": 398.83
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 24,
+        "fields": {
+            "data": "2025-01-04",
+            "imponibile": 90.74,
+            "iva": 9.07,
+            "totale": 99.81
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 25,
+        "fields": {
+            "data": "2025-01-28",
+            "imponibile": 255.0,
+            "iva": 25.5,
+            "totale": 280.5
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 26,
+        "fields": {
+            "data": "2025-02-28",
+            "imponibile": 349.5,
+            "iva": 34.95,
+            "totale": 384.45
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 27,
+        "fields": {
+            "data": "2025-02-04",
+            "imponibile": 296.75,
+            "iva": 29.68,
+            "totale": 326.43
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 28,
+        "fields": {
+            "data": "2025-02-26",
+            "imponibile": 556.5,
+            "iva": 55.65,
+            "totale": 612.15
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 29,
+        "fields": {
+            "data": "2025-02-06",
+            "imponibile": 677.28,
+            "iva": 67.73,
+            "totale": 745.01
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 30,
+        "fields": {
+            "data": "2025-01-26",
+            "imponibile": 416.47,
+            "iva": 41.65,
+            "totale": 458.12
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 31,
+        "fields": {
+            "data": "2025-02-12",
+            "imponibile": 452.09,
+            "iva": 45.21,
+            "totale": 497.3
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 32,
+        "fields": {
+            "data": "2025-02-12",
+            "imponibile": 118.79,
+            "iva": 11.88,
+            "totale": 130.67
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 33,
+        "fields": {
+            "data": "2025-02-03",
+            "imponibile": 148.76,
+            "iva": 14.88,
+            "totale": 163.64
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 34,
+        "fields": {
+            "data": "2025-01-09",
+            "imponibile": 581.8,
+            "iva": 58.18,
+            "totale": 639.98
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 35,
+        "fields": {
+            "data": "2025-02-17",
+            "imponibile": 294.13,
+            "iva": 29.41,
+            "totale": 323.54
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 36,
+        "fields": {
+            "data": "2025-01-21",
+            "imponibile": 541.14,
+            "iva": 54.11,
+            "totale": 595.25
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 37,
+        "fields": {
+            "data": "2025-01-06",
+            "imponibile": 286.78,
+            "iva": 28.68,
+            "totale": 315.46
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 38,
+        "fields": {
+            "data": "2025-01-11",
+            "imponibile": 122.44,
+            "iva": 12.24,
+            "totale": 134.68
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 39,
+        "fields": {
+            "data": "2025-02-21",
+            "imponibile": 492.26,
+            "iva": 49.23,
+            "totale": 541.49
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 40,
+        "fields": {
+            "data": "2025-02-13",
+            "imponibile": 210.28,
+            "iva": 21.03,
+            "totale": 231.31
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 41,
+        "fields": {
+            "data": "2025-02-01",
+            "imponibile": 390.14,
+            "iva": 39.01,
+            "totale": 429.15
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 42,
+        "fields": {
+            "data": "2025-01-06",
+            "imponibile": 96.36,
+            "iva": 9.64,
+            "totale": 106.0
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 43,
+        "fields": {
+            "data": "2025-01-14",
+            "imponibile": 534.02,
+            "iva": 53.4,
+            "totale": 587.42
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 44,
+        "fields": {
+            "data": "2025-01-24",
+            "imponibile": 729.92,
+            "iva": 72.99,
+            "totale": 802.91
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 45,
+        "fields": {
+            "data": "2025-02-16",
+            "imponibile": 597.6,
+            "iva": 59.76,
+            "totale": 657.36
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 46,
+        "fields": {
+            "data": "2025-01-13",
+            "imponibile": 565.98,
+            "iva": 56.6,
+            "totale": 622.58
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 47,
+        "fields": {
+            "data": "2025-02-09",
+            "imponibile": 214.97,
+            "iva": 21.5,
+            "totale": 236.47
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 48,
+        "fields": {
+            "data": "2025-02-25",
+            "imponibile": 347.34,
+            "iva": 34.73,
+            "totale": 382.07
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 49,
+        "fields": {
+            "data": "2025-01-20",
+            "imponibile": 187.92,
+            "iva": 18.79,
+            "totale": 206.71
+        }
+    },
+    {
+        "model": "una_acies.fattura",
+        "pk": 50,
+        "fields": {
+            "data": "2025-01-07",
+            "imponibile": 256.75,
+            "iva": 25.68,
+            "totale": 282.43
+        }
+    }
+]

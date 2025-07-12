@@ -1,0 +1,502 @@
+[
+    {
+        "model": "una_acies.cliente",
+        "pk": 1,
+        "fields": {
+            "codice_fiscale": "RSSMRA85M01H501Z",
+            "ragione_sociale": "Rossi Mario Srl",
+            "indirizzo": "Via Roma 10",
+            "citta": "Milano"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 2,
+        "fields": {
+            "codice_fiscale": "BNCLDN89P01F205X",
+            "ragione_sociale": "Bianchi Luca & Co",
+            "indirizzo": "Corso Italia 50",
+            "citta": "Roma"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 3,
+        "fields": {
+            "codice_fiscale": "VNZNTN72D18Z404D",
+            "ragione_sociale": "Verdi Antonio",
+            "indirizzo": "Viale dei Mille 15",
+            "citta": "Napoli"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 4,
+        "fields": {
+            "codice_fiscale": "FNCGPP64A18A079V",
+            "ragione_sociale": "Ferrari Giuseppe",
+            "indirizzo": "Piazza San Giovanni 20",
+            "citta": "Torino"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 5,
+        "fields": {
+            "codice_fiscale": "PRGMRC70E03F205Y",
+            "ragione_sociale": "Peregalli Marco",
+            "indirizzo": "Via Garibaldi 120",
+            "citta": "Firenze"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 6,
+        "fields": {
+            "codice_fiscale": "LNCMRA90S01F205W",
+            "ragione_sociale": "Lenci Mauro",
+            "indirizzo": "Viale Europa 10",
+            "citta": "Bologna"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 7,
+        "fields": {
+            "codice_fiscale": "MNLFNC87S21Z404K",
+            "ragione_sociale": "Manelli Federico",
+            "indirizzo": "Corso Vittorio Emanuele 30",
+            "citta": "Venezia"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 8,
+        "fields": {
+            "codice_fiscale": "CBNDME71A21H501C",
+            "ragione_sociale": "Campanella Domenico",
+            "indirizzo": "Piazza Duomo 5",
+            "citta": "Palermo"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 9,
+        "fields": {
+            "codice_fiscale": "SBNDMS90S01T205S",
+            "ragione_sociale": "Sannino Maria",
+            "indirizzo": "Via della Libertà 90",
+            "citta": "Catania"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 10,
+        "fields": {
+            "codice_fiscale": "DDLRDT68T21A079C",
+            "ragione_sociale": "De Luca Renato",
+            "indirizzo": "Via Martiri 50",
+            "citta": "Napoli"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 11,
+        "fields": {
+            "codice_fiscale": "GLLVMS72M01T205X",
+            "ragione_sociale": "Galli Massimo",
+            "indirizzo": "Piazza Garibaldi 40",
+            "citta": "Roma"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 12,
+        "fields": {
+            "codice_fiscale": "BCLLNE60B01Z404A",
+            "ragione_sociale": "Bolle Luca",
+            "indirizzo": "Corso Milano 100",
+            "citta": "Milano"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 13,
+        "fields": {
+            "codice_fiscale": "PRZZRT87M21A079F",
+            "ragione_sociale": "Petrillo Zita",
+            "indirizzo": "Viale dei Tigli 120",
+            "citta": "Firenze"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 14,
+        "fields": {
+            "codice_fiscale": "GGGGGGGGGGGGGGGG",
+            "ragione_sociale": "Ghirardelli Giorgio",
+            "indirizzo": "Via Torino 15",
+            "citta": "Genova"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 15,
+        "fields": {
+            "codice_fiscale": "CCDBNS88M11Z404L",
+            "ragione_sociale": "Chiodi Bianca",
+            "indirizzo": "Via San Giovanni 10",
+            "citta": "Cagliari"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 16,
+        "fields": {
+            "codice_fiscale": "FNSLNN80L01H501Q",
+            "ragione_sociale": "Ferrari Livia",
+            "indirizzo": "Piazza Rossa 23",
+            "citta": "Bari"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 17,
+        "fields": {
+            "codice_fiscale": "LLCCLT85S21A079P",
+            "ragione_sociale": "Lombardi Claudio",
+            "indirizzo": "Largo S. Giuseppe 12",
+            "citta": "Napoli"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 18,
+        "fields": {
+            "codice_fiscale": "VVNNTS99D01F205A",
+            "ragione_sociale": "Vallone Teresa",
+            "indirizzo": "Via delle Rose 35",
+            "citta": "Roma"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 19,
+        "fields": {
+            "codice_fiscale": "FFSSMR89L21Z404E",
+            "ragione_sociale": "Fazzi Samuele",
+            "indirizzo": "Corso Trieste 50",
+            "citta": "Catania"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 20,
+        "fields": {
+            "codice_fiscale": "PGLNLR83D01T205N",
+            "ragione_sociale": "Poli Giuliano",
+            "indirizzo": "Viale dei Cedri 15",
+            "citta": "Torino"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 21,
+        "fields": {
+            "codice_fiscale": "PRSMRF90L11Z404B",
+            "ragione_sociale": "Rossetti Francesco",
+            "indirizzo": "Via Dante 120",
+            "citta": "Milano"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 22,
+        "fields": {
+            "codice_fiscale": "PPNNRT60B01H501V",
+            "ragione_sociale": "Pacioli Nicola",
+            "indirizzo": "Piazza Armerina 40",
+            "citta": "Genova"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 23,
+        "fields": {
+            "codice_fiscale": "RSSLZZ82F01T205G",
+            "ragione_sociale": "Rizzo Sabrina",
+            "indirizzo": "Via Lido 5",
+            "citta": "Cagliari"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 24,
+        "fields": {
+            "codice_fiscale": "SMNNZZ81G01Z404W",
+            "ragione_sociale": "Savoia Giuseppe",
+            "indirizzo": "Viale delle Nazioni 10",
+            "citta": "Firenze"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 25,
+        "fields": {
+            "codice_fiscale": "RLLCCC85M21H501M",
+            "ragione_sociale": "Ratti Lucia",
+            "indirizzo": "Via dei Fiori 35",
+            "citta": "Napoli"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 26,
+        "fields": {
+            "codice_fiscale": "BBRRNN67T21Z404P",
+            "ragione_sociale": "Bellini Rocco",
+            "indirizzo": "Corso Umberto 70",
+            "citta": "Roma"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 27,
+        "fields": {
+            "codice_fiscale": "GDDMSN91S21F205K",
+            "ragione_sociale": "Giordano Domenico",
+            "indirizzo": "Via Roma 30",
+            "citta": "Palermo"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 28,
+        "fields": {
+            "codice_fiscale": "CMMNNN79P01A079Y",
+            "ragione_sociale": "Cattaneo Marcella",
+            "indirizzo": "Lungomare 45",
+            "citta": "Venezia"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 29,
+        "fields": {
+            "codice_fiscale": "MRSSMN87R11Z404J",
+            "ragione_sociale": "Marini Stefano",
+            "indirizzo": "Viale Europa 90",
+            "citta": "Bologna"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 30,
+        "fields": {
+            "codice_fiscale": "SSMMRM88S11H501P",
+            "ragione_sociale": "Santi Maria",
+            "indirizzo": "Corso Vercelli 20",
+            "citta": "Milano"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 31,
+        "fields": {
+            "codice_fiscale": "BBNNTS72S21A079G",
+            "ragione_sociale": "Bertoli Nino",
+            "indirizzo": "Piazza Vittoria 15",
+            "citta": "Catania"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 32,
+        "fields": {
+            "codice_fiscale": "MMNNNT61A01Z404M",
+            "ragione_sociale": "Malatesta Norberto",
+            "indirizzo": "Viale Aldo Moro 50",
+            "citta": "Torino"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 33,
+        "fields": {
+            "codice_fiscale": "RRSSNM90P21F205L",
+            "ragione_sociale": "Ruggieri Nino",
+            "indirizzo": "Via Roma 60",
+            "citta": "Napoli"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 34,
+        "fields": {
+            "codice_fiscale": "PLTNNR70F11H501X",
+            "ragione_sociale": "Pellegrini Lucia",
+            "indirizzo": "Corso Sempione 10",
+            "citta": "Roma"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 35,
+        "fields": {
+            "codice_fiscale": "VNNLFS85M21Z404C",
+            "ragione_sociale": "Vescovo Fernando",
+            "indirizzo": "Via San Francesco 100",
+            "citta": "Bari"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 36,
+        "fields": {
+            "codice_fiscale": "GGLLNN70P11A079V",
+            "ragione_sociale": "Giorgi Luca",
+            "indirizzo": "Viale Manzoni 45",
+            "citta": "Firenze"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 37,
+        "fields": {
+            "codice_fiscale": "CCNNLD69T21Z404Y",
+            "ragione_sociale": "Ciccioli Livia",
+            "indirizzo": "Via delle Palme 20",
+            "citta": "Venezia"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 38,
+        "fields": {
+            "codice_fiscale": "FNNGRM88M01H501E",
+            "ragione_sociale": "Fiorini Graziano",
+            "indirizzo": "Piazza Bolognini 10",
+            "citta": "Torino"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 39,
+        "fields": {
+            "codice_fiscale": "FFRNNL82S01Z404P",
+            "ragione_sociale": "Falcone Luigi",
+            "indirizzo": "Via Milano 90",
+            "citta": "Catania"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 40,
+        "fields": {
+            "codice_fiscale": "PGRNNS91M21F205T",
+            "ragione_sociale": "Perego Rosaria",
+            "indirizzo": "Corso Garibaldi 10",
+            "citta": "Genova"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 41,
+        "fields": {
+            "codice_fiscale": "PGRSLZ76L01H501J",
+            "ragione_sociale": "Pagliari Stefano",
+            "indirizzo": "Largo Santa Lucia 70",
+            "citta": "Firenze"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 42,
+        "fields": {
+            "codice_fiscale": "LSNSMZ77S01F205R",
+            "ragione_sociale": "Lombardi Sante",
+            "indirizzo": "Viale Venezia 35",
+            "citta": "Napoli"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 43,
+        "fields": {
+            "codice_fiscale": "MNNZTR83L21Z404X",
+            "ragione_sociale": "Mazzini Nicola",
+            "indirizzo": "Piazza Marconi 30",
+            "citta": "Roma"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 44,
+        "fields": {
+            "codice_fiscale": "BBSSNZ70F01A079Q",
+            "ragione_sociale": "Benassi Samuele",
+            "indirizzo": "Via delle Rose 25",
+            "citta": "Palermo"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 45,
+        "fields": {
+            "codice_fiscale": "GGFSRR84S01H501O",
+            "ragione_sociale": "Gatti Sara",
+            "indirizzo": "Via Nazionale 50",
+            "citta": "Venezia"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 46,
+        "fields": {
+            "codice_fiscale": "RRZZNS69M11F205S",
+            "ragione_sociale": "Rizzi Zeno",
+            "indirizzo": "Corso Stati Uniti 5",
+            "citta": "Cagliari"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 47,
+        "fields": {
+            "codice_fiscale": "LLRRSN86P11A079A",
+            "ragione_sociale": "Lorenzini Roberto",
+            "indirizzo": "Piazza dei Miracoli 10",
+            "citta": "Firenze"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 48,
+        "fields": {
+            "codice_fiscale": "MMZZZZ77R01H501B",
+            "ragione_sociale": "Morandi Martina",
+            "indirizzo": "Via Marsala 15",
+            "citta": "Napoli"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 49,
+        "fields": {
+            "codice_fiscale": "SNNLRT83F01Z404Y",
+            "ragione_sociale": "Serra Luca",
+            "indirizzo": "Viale della Repubblica 45",
+            "citta": "Torino"
+        }
+    },
+    {
+        "model": "una_acies.cliente",
+        "pk": 50,
+        "fields": {
+            "codice_fiscale": "FFTTTG70B21A079P",
+            "ragione_sociale": "Ferrante Giovanni",
+            "indirizzo": "Corso Como 20",
+            "citta": "Milano"
+        }
+    }
+]

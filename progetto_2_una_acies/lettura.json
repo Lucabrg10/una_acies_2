@@ -1,0 +1,1022 @@
+[
+    {
+        "model": "una_acies.lettura",
+        "pk": 1,
+        "fields": {
+            "data": "2025-02-20",
+            "valore": 244.91,
+            "utenza": 25,
+            "fattura": 1
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 2,
+        "fields": {
+            "data": "2025-02-21",
+            "valore": 179.94,
+            "utenza": 6,
+            "fattura": 2
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 3,
+        "fields": {
+            "data": "2025-01-26",
+            "valore": 180.42,
+            "utenza": 5,
+            "fattura": 2
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 4,
+        "fields": {
+            "data": "2025-02-17",
+            "valore": 115.5,
+            "utenza": 41,
+            "fattura": 2
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 5,
+        "fields": {
+            "data": "2025-02-04",
+            "valore": 188.57,
+            "utenza": 36,
+            "fattura": 3
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 6,
+        "fields": {
+            "data": "2025-01-20",
+            "valore": 177.24,
+            "utenza": 17,
+            "fattura": 3
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 7,
+        "fields": {
+            "data": "2025-01-16",
+            "valore": 228.73,
+            "utenza": 49,
+            "fattura": 3
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 8,
+        "fields": {
+            "data": "2025-01-22",
+            "valore": 180.63,
+            "utenza": 9,
+            "fattura": 4
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 9,
+        "fields": {
+            "data": "2025-02-14",
+            "valore": 164.41,
+            "utenza": 9,
+            "fattura": 4
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 10,
+        "fields": {
+            "data": "2025-01-19",
+            "valore": 161.95,
+            "utenza": 13,
+            "fattura": 5
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 11,
+        "fields": {
+            "data": "2025-02-10",
+            "valore": 154.43,
+            "utenza": 46,
+            "fattura": 5
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 12,
+        "fields": {
+            "data": "2025-02-26",
+            "valore": 77.86,
+            "utenza": 7,
+            "fattura": 5
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 13,
+        "fields": {
+            "data": "2025-01-24",
+            "valore": 150.71,
+            "utenza": 14,
+            "fattura": 6
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 14,
+        "fields": {
+            "data": "2025-01-16",
+            "valore": 144.62,
+            "utenza": 2,
+            "fattura": 6
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 15,
+        "fields": {
+            "data": "2025-02-19",
+            "valore": 194.13,
+            "utenza": 22,
+            "fattura": 7
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 16,
+        "fields": {
+            "data": "2025-01-08",
+            "valore": 248.29,
+            "utenza": 6,
+            "fattura": 7
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 17,
+        "fields": {
+            "data": "2025-02-13",
+            "valore": 77.66,
+            "utenza": 20,
+            "fattura": 8
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 18,
+        "fields": {
+            "data": "2025-01-13",
+            "valore": 129.17,
+            "utenza": 44,
+            "fattura": 9
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 19,
+        "fields": {
+            "data": "2025-01-11",
+            "valore": 104.91,
+            "utenza": 12,
+            "fattura": 9
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 20,
+        "fields": {
+            "data": "2025-01-25",
+            "valore": 109.8,
+            "utenza": 31,
+            "fattura": 9
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 21,
+        "fields": {
+            "data": "2025-02-26",
+            "valore": 66.77,
+            "utenza": 37,
+            "fattura": 10
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 22,
+        "fields": {
+            "data": "2025-02-05",
+            "valore": 103.13,
+            "utenza": 19,
+            "fattura": 10
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 23,
+        "fields": {
+            "data": "2025-02-20",
+            "valore": 176.17,
+            "utenza": 39,
+            "fattura": 10
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 24,
+        "fields": {
+            "data": "2025-02-03",
+            "valore": 178.57,
+            "utenza": 2,
+            "fattura": 11
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 25,
+        "fields": {
+            "data": "2025-01-28",
+            "valore": 231.28,
+            "utenza": 33,
+            "fattura": 12
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 26,
+        "fields": {
+            "data": "2025-02-06",
+            "valore": 95.67,
+            "utenza": 39,
+            "fattura": 12
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 27,
+        "fields": {
+            "data": "2025-01-26",
+            "valore": 68.71,
+            "utenza": 50,
+            "fattura": 13
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 28,
+        "fields": {
+            "data": "2025-02-27",
+            "valore": 231.03,
+            "utenza": 19,
+            "fattura": 13
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 29,
+        "fields": {
+            "data": "2025-02-21",
+            "valore": 132.54,
+            "utenza": 39,
+            "fattura": 14
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 30,
+        "fields": {
+            "data": "2025-02-05",
+            "valore": 157.99,
+            "utenza": 29,
+            "fattura": 14
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 31,
+        "fields": {
+            "data": "2025-01-20",
+            "valore": 125.8,
+            "utenza": 24,
+            "fattura": 15
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 32,
+        "fields": {
+            "data": "2025-01-01",
+            "valore": 61.69,
+            "utenza": 15,
+            "fattura": 15
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 33,
+        "fields": {
+            "data": "2025-02-21",
+            "valore": 110.9,
+            "utenza": 1,
+            "fattura": 16
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 34,
+        "fields": {
+            "data": "2025-02-25",
+            "valore": 80.64,
+            "utenza": 12,
+            "fattura": 17
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 35,
+        "fields": {
+            "data": "2025-02-24",
+            "valore": 72.48,
+            "utenza": 39,
+            "fattura": 17
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 36,
+        "fields": {
+            "data": "2025-01-27",
+            "valore": 202.48,
+            "utenza": 42,
+            "fattura": 18
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 37,
+        "fields": {
+            "data": "2025-01-01",
+            "valore": 220.83,
+            "utenza": 5,
+            "fattura": 18
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 38,
+        "fields": {
+            "data": "2025-02-09",
+            "valore": 192.75,
+            "utenza": 6,
+            "fattura": 18
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 39,
+        "fields": {
+            "data": "2025-02-11",
+            "valore": 93.36,
+            "utenza": 5,
+            "fattura": 19
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 40,
+        "fields": {
+            "data": "2025-01-13",
+            "valore": 154.44,
+            "utenza": 16,
+            "fattura": 20
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 41,
+        "fields": {
+            "data": "2025-02-20",
+            "valore": 94.86,
+            "utenza": 27,
+            "fattura": 20
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 42,
+        "fields": {
+            "data": "2025-01-01",
+            "valore": 77.73,
+            "utenza": 38,
+            "fattura": 20
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 43,
+        "fields": {
+            "data": "2025-02-19",
+            "valore": 191.9,
+            "utenza": 45,
+            "fattura": 21
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 44,
+        "fields": {
+            "data": "2025-01-01",
+            "valore": 111.53,
+            "utenza": 20,
+            "fattura": 21
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 45,
+        "fields": {
+            "data": "2025-02-25",
+            "valore": 105.64,
+            "utenza": 46,
+            "fattura": 22
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 46,
+        "fields": {
+            "data": "2025-01-12",
+            "valore": 217.22,
+            "utenza": 2,
+            "fattura": 23
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 47,
+        "fields": {
+            "data": "2025-02-03",
+            "valore": 84.92,
+            "utenza": 12,
+            "fattura": 23
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 48,
+        "fields": {
+            "data": "2025-02-01",
+            "valore": 75.62,
+            "utenza": 2,
+            "fattura": 24
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 49,
+        "fields": {
+            "data": "2025-02-22",
+            "valore": 212.5,
+            "utenza": 6,
+            "fattura": 25
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 50,
+        "fields": {
+            "data": "2025-01-24",
+            "valore": 241.05,
+            "utenza": 12,
+            "fattura": 26
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 51,
+        "fields": {
+            "data": "2025-02-09",
+            "valore": 50.2,
+            "utenza": 26,
+            "fattura": 26
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 52,
+        "fields": {
+            "data": "2025-01-27",
+            "valore": 92.91,
+            "utenza": 13,
+            "fattura": 27
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 53,
+        "fields": {
+            "data": "2025-01-22",
+            "valore": 154.38,
+            "utenza": 49,
+            "fattura": 27
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 54,
+        "fields": {
+            "data": "2025-02-23",
+            "valore": 129.55,
+            "utenza": 37,
+            "fattura": 28
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 55,
+        "fields": {
+            "data": "2025-02-26",
+            "valore": 234.65,
+            "utenza": 43,
+            "fattura": 28
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 56,
+        "fields": {
+            "data": "2025-02-14",
+            "valore": 99.55,
+            "utenza": 24,
+            "fattura": 28
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 57,
+        "fields": {
+            "data": "2025-02-26",
+            "valore": 145.26,
+            "utenza": 47,
+            "fattura": 29
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 58,
+        "fields": {
+            "data": "2025-02-23",
+            "valore": 234.21,
+            "utenza": 29,
+            "fattura": 29
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 59,
+        "fields": {
+            "data": "2025-02-11",
+            "valore": 184.93,
+            "utenza": 45,
+            "fattura": 29
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 60,
+        "fields": {
+            "data": "2025-02-05",
+            "valore": 237.81,
+            "utenza": 48,
+            "fattura": 30
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 61,
+        "fields": {
+            "data": "2025-01-07",
+            "valore": 109.25,
+            "utenza": 20,
+            "fattura": 30
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 62,
+        "fields": {
+            "data": "2025-02-13",
+            "valore": 195.4,
+            "utenza": 50,
+            "fattura": 31
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 63,
+        "fields": {
+            "data": "2025-01-24",
+            "valore": 181.34,
+            "utenza": 11,
+            "fattura": 31
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 64,
+        "fields": {
+            "data": "2025-01-16",
+            "valore": 98.99,
+            "utenza": 22,
+            "fattura": 32
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 65,
+        "fields": {
+            "data": "2025-02-16",
+            "valore": 123.97,
+            "utenza": 24,
+            "fattura": 33
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 66,
+        "fields": {
+            "data": "2025-01-08",
+            "valore": 195.04,
+            "utenza": 9,
+            "fattura": 34
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 67,
+        "fields": {
+            "data": "2025-02-16",
+            "valore": 58.31,
+            "utenza": 32,
+            "fattura": 34
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 68,
+        "fields": {
+            "data": "2025-02-13",
+            "valore": 231.48,
+            "utenza": 37,
+            "fattura": 34
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 69,
+        "fields": {
+            "data": "2025-01-24",
+            "valore": 112.33,
+            "utenza": 30,
+            "fattura": 35
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 70,
+        "fields": {
+            "data": "2025-01-18",
+            "valore": 132.78,
+            "utenza": 16,
+            "fattura": 35
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 71,
+        "fields": {
+            "data": "2025-02-23",
+            "valore": 93.48,
+            "utenza": 5,
+            "fattura": 36
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 72,
+        "fields": {
+            "data": "2025-01-10",
+            "valore": 233.41,
+            "utenza": 3,
+            "fattura": 36
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 73,
+        "fields": {
+            "data": "2025-01-01",
+            "valore": 124.06,
+            "utenza": 27,
+            "fattura": 36
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 74,
+        "fields": {
+            "data": "2025-02-25",
+            "valore": 238.98,
+            "utenza": 27,
+            "fattura": 37
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 75,
+        "fields": {
+            "data": "2025-02-20",
+            "valore": 102.03,
+            "utenza": 16,
+            "fattura": 38
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 76,
+        "fields": {
+            "data": "2025-02-17",
+            "valore": 72.05,
+            "utenza": 49,
+            "fattura": 39
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 77,
+        "fields": {
+            "data": "2025-01-17",
+            "valore": 133.65,
+            "utenza": 28,
+            "fattura": 39
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 78,
+        "fields": {
+            "data": "2025-01-13",
+            "valore": 204.52,
+            "utenza": 10,
+            "fattura": 39
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 79,
+        "fields": {
+            "data": "2025-01-09",
+            "valore": 175.23,
+            "utenza": 19,
+            "fattura": 40
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 80,
+        "fields": {
+            "data": "2025-01-21",
+            "valore": 81.35,
+            "utenza": 47,
+            "fattura": 41
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 81,
+        "fields": {
+            "data": "2025-01-23",
+            "valore": 243.77,
+            "utenza": 20,
+            "fattura": 41
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 82,
+        "fields": {
+            "data": "2025-02-15",
+            "valore": 80.3,
+            "utenza": 21,
+            "fattura": 42
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 83,
+        "fields": {
+            "data": "2025-02-23",
+            "valore": 114.54,
+            "utenza": 7,
+            "fattura": 43
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 84,
+        "fields": {
+            "data": "2025-01-07",
+            "valore": 199.31,
+            "utenza": 5,
+            "fattura": 43
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 85,
+        "fields": {
+            "data": "2025-01-12",
+            "valore": 131.17,
+            "utenza": 36,
+            "fattura": 43
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 86,
+        "fields": {
+            "data": "2025-01-25",
+            "valore": 242.74,
+            "utenza": 50,
+            "fattura": 44
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 87,
+        "fields": {
+            "data": "2025-02-22",
+            "valore": 225.06,
+            "utenza": 33,
+            "fattura": 44
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 88,
+        "fields": {
+            "data": "2025-01-23",
+            "valore": 140.47,
+            "utenza": 18,
+            "fattura": 44
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 89,
+        "fields": {
+            "data": "2025-02-21",
+            "valore": 187.79,
+            "utenza": 4,
+            "fattura": 45
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 90,
+        "fields": {
+            "data": "2025-01-09",
+            "valore": 117.85,
+            "utenza": 22,
+            "fattura": 45
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 91,
+        "fields": {
+            "data": "2025-01-17",
+            "valore": 192.36,
+            "utenza": 4,
+            "fattura": 45
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 92,
+        "fields": {
+            "data": "2025-01-02",
+            "valore": 197.79,
+            "utenza": 14,
+            "fattura": 46
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 93,
+        "fields": {
+            "data": "2025-02-20",
+            "valore": 204.17,
+            "utenza": 2,
+            "fattura": 46
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 94,
+        "fields": {
+            "data": "2025-01-27",
+            "valore": 69.69,
+            "utenza": 38,
+            "fattura": 46
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 95,
+        "fields": {
+            "data": "2025-02-12",
+            "valore": 52.53,
+            "utenza": 5,
+            "fattura": 47
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 96,
+        "fields": {
+            "data": "2025-01-16",
+            "valore": 126.61,
+            "utenza": 49,
+            "fattura": 47
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 97,
+        "fields": {
+            "data": "2025-01-26",
+            "valore": 123.8,
+            "utenza": 39,
+            "fattura": 48
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 98,
+        "fields": {
+            "data": "2025-02-10",
+            "valore": 110.8,
+            "utenza": 36,
+            "fattura": 48
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 99,
+        "fields": {
+            "data": "2025-01-22",
+            "valore": 54.85,
+            "utenza": 45,
+            "fattura": 48
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 100,
+        "fields": {
+            "data": "2025-02-27",
+            "valore": 156.6,
+            "utenza": 29,
+            "fattura": 49
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 101,
+        "fields": {
+            "data": "2025-02-18",
+            "valore": 56.42,
+            "utenza": 46,
+            "fattura": 50
+        }
+    },
+    {
+        "model": "una_acies.lettura",
+        "pk": 102,
+        "fields": {
+            "data": "2025-02-28",
+            "valore": 157.54,
+            "utenza": 23,
+            "fattura": 50
+        }
+    }
+]

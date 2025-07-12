@@ -1,0 +1,650 @@
+[
+    {
+        "model": "una_acies.utenza",
+        "pk": 1,
+        "fields": {
+            "data_apertura": "2025-01-01",
+            "indirizzo": "Via Roma 7",
+            "citta": "Milano",
+            "data_chiusura": "2025-04-05",
+            "stato": "inattivo",
+            "cliente": 1
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 2,
+        "fields": {
+            "data_apertura": "2025-01-01",
+            "indirizzo": "Corso Italia 50",
+            "citta": "Milano",
+            "data_chiusura": "2025-05-26",
+            "stato": "inattivo",
+            "cliente": 1
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 3,
+        "fields": {
+            "data_apertura": "2025-01-02",
+            "indirizzo": "Piazza San Giovanni 20",
+            "citta": "Roma",
+            "data_chiusura": "2025-05-27",
+            "stato": "inattivo",
+            "cliente": 2
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 4,
+        "fields": {
+            "data_apertura": "2025-01-02",
+            "indirizzo": "Viale dei Mille 15",
+            "citta": "Roma",
+            "data_chiusura": "2025-05-29",
+            "stato": "inattivo",
+            "cliente": 2
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 5,
+        "fields": {
+            "data_apertura": "2025-01-03",
+            "indirizzo": "Viale degli Alberi 45",
+            "citta": "Napoli",
+            "data_chiusura": "2025-05-29",
+            "stato": "inattivo",
+            "cliente": 3
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 6,
+        "fields": {
+            "data_apertura": "2025-01-04",
+            "indirizzo": "Piazza Duomo 5",
+            "citta": "Firenze",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 4
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 7,
+        "fields": {
+            "data_apertura": "2025-01-05",
+            "indirizzo": "Via Garibaldi 120",
+            "citta": "Bologna",
+            "data_chiusura": "2025-05-29",
+            "stato": "inattivo",
+            "cliente": 5
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 9,
+        "fields": {
+            "data_apertura": "2025-01-06",
+            "indirizzo": "Corso Vittorio Emanuele 30",
+            "citta": "Venezia",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 6
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 10,
+        "fields": {
+            "data_apertura": "2025-01-07",
+            "indirizzo": "Via dei Mille 40",
+            "citta": "Torino",
+            "data_chiusura": "2025-05-22",
+            "stato": "inattivo",
+            "cliente": 7
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 11,
+        "fields": {
+            "data_apertura": "2025-01-08",
+            "indirizzo": "Via Castelfidardo 90",
+            "citta": "Palermo",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 8
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 12,
+        "fields": {
+            "data_apertura": "2025-01-08",
+            "indirizzo": "Via Umberto 30",
+            "citta": "Palermo",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 8
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 13,
+        "fields": {
+            "data_apertura": "2025-01-09",
+            "indirizzo": "Viale Regina Margherita 55",
+            "citta": "Catania",
+            "data_chiusura": "2025-05-29",
+            "stato": "inattivo",
+            "cliente": 9
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 14,
+        "fields": {
+            "data_apertura": "2025-01-10",
+            "indirizzo": "Piazza San Marco 25",
+            "citta": "Napoli",
+            "data_chiusura": "2025-05-27",
+            "stato": "inattivo",
+            "cliente": 10
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 15,
+        "fields": {
+            "data_apertura": "2025-01-11",
+            "indirizzo": "Piazza della Repubblica 80",
+            "citta": "Genova",
+            "data_chiusura": "2025-06-07",
+            "stato": "inattivo",
+            "cliente": 11
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 16,
+        "fields": {
+            "data_apertura": "2025-01-12",
+            "indirizzo": "Via Martiri 50",
+            "citta": "Napoli",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 12
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 17,
+        "fields": {
+            "data_apertura": "2025-01-12",
+            "indirizzo": "Viale Roma 70",
+            "citta": "Napoli",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 12
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 18,
+        "fields": {
+            "data_apertura": "2025-01-13",
+            "indirizzo": "Viale degli Alberi 45",
+            "citta": "Napoli",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 13
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 19,
+        "fields": {
+            "data_apertura": "2025-01-14",
+            "indirizzo": "Corso Magenta 60",
+            "citta": "Milano",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 14
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 20,
+        "fields": {
+            "data_apertura": "2025-01-15",
+            "indirizzo": "Piazza del Popolo 100",
+            "citta": "Verona",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 15
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 21,
+        "fields": {
+            "data_apertura": "2025-01-16",
+            "indirizzo": "Piazza Guglielmo Marconi 70",
+            "citta": "Bari",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 16
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 22,
+        "fields": {
+            "data_apertura": "2025-01-16",
+            "indirizzo": "Piazza della Repubblica 10",
+            "citta": "Bari",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 16
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 23,
+        "fields": {
+            "data_apertura": "2025-01-17",
+            "indirizzo": "Corso Nazionale 45",
+            "citta": "Palermo",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 17
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 24,
+        "fields": {
+            "data_apertura": "2025-01-18",
+            "indirizzo": "Via Garibaldi 120",
+            "citta": "Bologna",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 18
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 25,
+        "fields": {
+            "data_apertura": "2025-01-19",
+            "indirizzo": "Viale degli Ulivi 30",
+            "citta": "Cagliari",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 19
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 26,
+        "fields": {
+            "data_apertura": "2025-01-20",
+            "indirizzo": "Via Po 60",
+            "citta": "Verona",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 20
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 27,
+        "fields": {
+            "data_apertura": "2025-01-21",
+            "indirizzo": "Piazza del Popolo 35",
+            "citta": "Trieste",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 21
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 28,
+        "fields": {
+            "data_apertura": "2025-01-21",
+            "indirizzo": "Corso Italia 30",
+            "citta": "Trieste",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 21
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 29,
+        "fields": {
+            "data_apertura": "2025-01-22",
+            "indirizzo": "Via Dante 10",
+            "citta": "Bologna",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 22
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 30,
+        "fields": {
+            "data_apertura": "2025-01-23",
+            "indirizzo": "Viale Europa 15",
+            "citta": "Bologna",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 23
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 31,
+        "fields": {
+            "data_apertura": "2025-01-24",
+            "indirizzo": "Piazza del Popolo 20",
+            "citta": "Genova",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 24
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 32,
+        "fields": {
+            "data_apertura": "2025-01-25",
+            "indirizzo": "Corso Guglielmo Marconi 60",
+            "citta": "Milano",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 25
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 33,
+        "fields": {
+            "data_apertura": "2025-01-26",
+            "indirizzo": "Viale dei Fiori 70",
+            "citta": "Trieste",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 26
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 34,
+        "fields": {
+            "data_apertura": "2025-01-27",
+            "indirizzo": "Via Gramsci 25",
+            "citta": "Catania",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 27
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 35,
+        "fields": {
+            "data_apertura": "2025-01-28",
+            "indirizzo": "Piazza del Duomo 100",
+            "citta": "Milano",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 28
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 36,
+        "fields": {
+            "data_apertura": "2025-01-29",
+            "indirizzo": "Piazza Plebiscito 35",
+            "citta": "Napoli",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 29
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 37,
+        "fields": {
+            "data_apertura": "2025-01-30",
+            "indirizzo": "Via Umberto 50",
+            "citta": "Cagliari",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 30
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 38,
+        "fields": {
+            "data_apertura": "2025-01-31",
+            "indirizzo": "Viale delle Alpi 50",
+            "citta": "Pescara",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 31
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 39,
+        "fields": {
+            "data_apertura": "2025-02-01",
+            "indirizzo": "Corso Nazionale 70",
+            "citta": "Roma",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 32
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 40,
+        "fields": {
+            "data_apertura": "2025-02-02",
+            "indirizzo": "Piazza della Repubblica 35",
+            "citta": "Genova",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 33
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 41,
+        "fields": {
+            "data_apertura": "2025-02-03",
+            "indirizzo": "Via dei Mille 40",
+            "citta": "Torino",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 34
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 42,
+        "fields": {
+            "data_apertura": "2025-02-04",
+            "indirizzo": "Corso Italia 60",
+            "citta": "Napoli",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 35
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 43,
+        "fields": {
+            "data_apertura": "2025-02-05",
+            "indirizzo": "Via Principi di Piemonte 10",
+            "citta": "Verona",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 36
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 44,
+        "fields": {
+            "data_apertura": "2025-02-06",
+            "indirizzo": "Viale dei Mille 80",
+            "citta": "Cagliari",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 37
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 45,
+        "fields": {
+            "data_apertura": "2025-02-07",
+            "indirizzo": "Piazza San Giovanni 15",
+            "citta": "Torino",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 38
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 46,
+        "fields": {
+            "data_apertura": "2025-02-08",
+            "indirizzo": "Via Dante 70",
+            "citta": "Bologna",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 39
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 47,
+        "fields": {
+            "data_apertura": "2025-02-09",
+            "indirizzo": "Viale Regina Margherita 55",
+            "citta": "Catania",
+            "data_chiusura": "2025-05-29",
+            "stato": "inattivo",
+            "cliente": 40
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 48,
+        "fields": {
+            "data_apertura": "2025-02-10",
+            "indirizzo": "Piazza della Repubblica 60",
+            "citta": "Bari",
+            "data_chiusura": "2025-05-26",
+            "stato": "inattivo",
+            "cliente": 41
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 49,
+        "fields": {
+            "data_apertura": "2025-02-11",
+            "indirizzo": "Viale degli Alberi 30",
+            "citta": "Napoli",
+            "data_chiusura": "2025-05-27",
+            "stato": "inattivo",
+            "cliente": 42
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 50,
+        "fields": {
+            "data_apertura": "2025-02-12",
+            "indirizzo": "Corso Italia 70",
+            "citta": "Palermo",
+            "data_chiusura": "2025-05-27",
+            "stato": "inattivo",
+            "cliente": 43
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 107,
+        "fields": {
+            "data_apertura": "2025-05-28",
+            "indirizzo": "via marconi 12",
+            "citta": "Roma",
+            "data_chiusura": "2025-05-31",
+            "stato": "inattivo",
+            "cliente": 49
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 108,
+        "fields": {
+            "data_apertura": "2025-05-30",
+            "indirizzo": "via marconi 14",
+            "citta": "Bolzano",
+            "data_chiusura": "2025-06-01",
+            "stato": "inattivo",
+            "cliente": 50
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 109,
+        "fields": {
+            "data_apertura": "2025-05-16",
+            "indirizzo": "via milano  5",
+            "citta": "Milano",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 48
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 110,
+        "fields": {
+            "data_apertura": "2024-11-13",
+            "indirizzo": "via dei caduti 19",
+            "citta": "Genova",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 9
+        }
+    },
+    {
+        "model": "una_acies.utenza",
+        "pk": 111,
+        "fields": {
+            "data_apertura": "2025-03-12",
+            "indirizzo": "Via da Vinci 7",
+            "citta": "Bergamo",
+            "data_chiusura": null,
+            "stato": "attivo",
+            "cliente": 22
+        }
+    }
+]

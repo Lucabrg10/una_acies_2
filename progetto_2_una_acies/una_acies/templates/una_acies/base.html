@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Distribuzione Acqua</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        :root {
+            --fucsia: #FF00FF;
+            --fucsia-dark: #cc00cc;
+        }
+
+        .text-primary {
+            color: var(--fucsia) !important;
+        }
+
+        .btn-primary {
+            background-color: var(--fucsia) !important;
+            border-color: var(--fucsia) !important;
+            color: #fff !important;
+        }
+
+        .btn-primary:hover,
+        .btn-primary:focus {
+            background-color: var(--fucsia-dark) !important;
+            border-color: var(--fucsia-dark) !important;
+            color: #fff !important;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif, Arial, sans-serif;
+            color: #111;
+            background-color: #FFF0FA;
+        }
+
+        header.bg-primary {
+            background-color: var(--fucsia) !important;
+            border-bottom: none;
+        }
+
+        header.bg-primary h1 {
+            color: #fff;
+            font-weight: 700;
+            margin: 0;
+        }
+
+        nav.navbar {
+            background-color: #fff !important;
+            border-bottom: none !important;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            /* ombra sottile */
+        }
+
+        .navbar-nav .nav-link {
+            color: var(--fucsia) !important;
+            font-weight: 600;
+            margin: 0 12px;
+            transition: color 0.3s ease;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: var(--fucsia-dark) !important;
+            text-decoration: underline;
+        }
+
+        .container-fluid.mt-4>.row {
+            display: flex;
+            flex-wrap: nowrap;
+            max-width: 1200px;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 1.5rem;
+        }
+
+        .filter-section {
+            background-color: var(--fucsia);
+            color: #fff;
+            padding: 1.5rem 1.2rem;
+            border-radius: 12px;
+            border: none;
+            flex: 0 0 25%;
+            box-sizing: border-box;
+        }
+
+        .filter-section h5,
+        .filter-section label {
+            color: #fff;
+            font-weight: 600;
+            margin-bottom: 0.6rem;
+        }
+
+        .filter-section select,
+        .filter-section input {
+            width: 100%;
+            background: white;
+            border: 1.5px solid rgba(255, 255, 255, 0.7);
+            border-radius: 8px;
+            color: black;
+            padding: 0.4rem 0.6rem;
+            font-size: 0.95rem;
+            margin-bottom: 1rem;
+            transition: border-color 0.3s ease;
+        }
+
+        .filter-section select:focus,
+        .filter-section input:focus {
+            outline: none;
+            border-color: #fff;
+            box-shadow: 0 0 8px rgba(255, 0, 255, 0.5);
+        }
+
+        .filter-section button.btn-primary {
+            background-color: #fff !important;
+            color: #FF00FF !important;
+            border: 2px solid #fff !important;
+            border-radius: 12px;
+            font-weight: 600;
+            width: 100%;
+            padding: 0.5rem 0;
+            transition: all 0.3s ease;
+        }
+
+        .filter-section button.btn-primary:hover {
+            background-color: #f2f2f2 !important;
+            color: #cc00cc !important;
+            border-color: #f2f2f2 !important;
+        }
+
+
+        main.col-md-9 {
+            background: #fff;
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: 0 0 15px rgba(255, 0, 255, 0.08);
+            color: #111;
+            flex: 1;
+            box-sizing: border-box;
+        }
+
+        footer.custom-footer {
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+            background-color: #fff;
+            color: var(--fucsia);
+            font-size: 0.9rem;
+            border-top: none;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="bg-primary text-center py-3">
+        {% load static %}
+        <img src="{% static 'logo4.png' %}" alt="Logo" style="max-width: 150px; height: auto;">
+    </header>
+
+    <nav class="navbar navbar-expand-lg px-4">
+        <div class="container justify-content-center">
+            <div class="navbar-nav">
+                <a class="nav-link" href="{% url 'clienti_list' %}">CLIENTI</a>
+                <a class="nav-link" href="{% url 'utenze_list' %}">UTENZE</a>
+                <a class="nav-link" href="{% url 'fatture_list' %}">FATTURE</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid mt-4">
+        <div class="row gx-4">
+            {% if not request.GET.hide_filters %}
+            <aside class="col-md-3 filter-section">
+                {% block sidebar %}{% endblock sidebar %}
+            </aside>
+            {% endif %}
+
+            <main class="col-md-9">
+                {% block content %}{% endblock content %}
+            </main>
+        </div>
+    </div>
+
+    <footer class="custom-footer  text-center py-3 mt-4">
+        <p style="margin: 0;">&copy; 2025 Distribuzione Acqua</p>
+    </footer>
+</body>
+
+</html>

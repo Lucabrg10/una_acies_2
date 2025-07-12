@@ -1,0 +1,60 @@
+{% extends "una_acies/base.html" %}
+
+{% block sidebar %}
+<h5 >Filtri Utenze</h5>
+<form method="get">
+  <div class="mb-3">
+    <label for="cliente" class="form-label">Cliente</label>
+    <select id="cliente" name="cliente" class="form-select">
+      <option value="">Tutti</option>
+      {% for c in clienti %}
+      <option value="{{ c.id }}" {% if filtro_cliente == c.id|stringformat:"s" %}selected{% endif %}>
+        {{ c.ragione_sociale }}
+      </option>
+      {% endfor %}
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary btn-sm"> Filtra</button>
+</form>
+{% endblock sidebar %}
+
+{% block content %}
+<h2>Elenco Utenze</h2>
+<a href="{% url 'utenza_create' %}?hide_filters=1" class="btn btn-primary mb-3">Aggiungi Utenza</a>
+
+<table class="table  table-hover  align-middle">
+    <thead class="fucsia-header">
+        <tr>
+            <th>Codice</th>
+            <th>Cliente</th>
+            <th>Data Apertura</th>
+            <th>Indirizzo</th>
+            <th>Città</th>
+            <th>Data Chiusura</th>
+            <th>Stato</th>
+            <th>Azioni</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for utenza in utenze %}
+        <tr>
+            <td>{{ utenza.codice }}</td>
+            <td>{{ utenza.cliente.ragione_sociale }}</td>
+            <td>{{ utenza.data_apertura }}</td>
+            <td>{{ utenza.indirizzo }}</td>
+            <td>{{ utenza.citta }}</td>
+            <td>{{ utenza.data_chiusura|default:"-" }}</td>
+            <td>{{ utenza.stato }}</td>
+            <td>
+                <a href="{% url 'utenza_update' utenza.pk %}" class="btn btn-warning btn-sm">Modifica</a>
+                <a href="{% url 'utenza_delete' utenza.pk %}" class="btn btn-danger btn-sm">Elimina</a>
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="8" class="text-center">Nessuna utenza trovata.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
