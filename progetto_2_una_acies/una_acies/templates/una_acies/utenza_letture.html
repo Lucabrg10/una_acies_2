@@ -1,0 +1,115 @@
+{% extends "una_acies/base.html" %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2><i class="fa-solid fa-chart-line"></i> Letture dell'Utenza #{{ utenza.codice }}</h2>
+    <div>
+        <a href="{% url 'lettura_create' %}?utenza={{ utenza.pk }}" class="btn btn-fucsia btn-action me-2">
+            <i class="fa-solid fa-plus"></i> Nuova Lettura
+        </a>
+        <a href="{% url 'utenze_list' %}" class="btn btn-secondary btn-action">
+            <i class="fa-solid fa-arrow-left"></i> Torna alle utenze
+        </a>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header fucsia-header">
+        <h5 class="mb-0">Dettagli Utenza</h5>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-3">
+                <p><strong>Cliente:</strong> {{ utenza.cliente.ragione_sociale }}</p>
+                <p><strong>Indirizzo:</strong> {{ utenza.indirizzo }}</p>
+            </div>
+            <div class="col-md-3">
+                <p><strong>Città:</strong> {{ utenza.citta }}</p>
+                <p><strong>Data apertura:</strong> {{ utenza.data_apertura|date:"d/m/Y" }}</p>
+            </div>
+            <div class="col-md-3">
+                <p><strong>Data chiusura:</strong> {{ utenza.data_chiusura|date:"d/m/Y"|default:"-" }}</p>
+                <p><strong>Stato:</strong> 
+                    {% if utenza.stato == 'attivo' %}
+                    <span class="badge bg-success">Attivo</span>
+                    {% else %}
+                    <span class="badge bg-danger">Inattivo</span>
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header fucsia-header d-flex justify-content-between align-items-center">
+        <h5 class="mb-0">Storico letture</h5>
+        <span class="badge bg-light text-dark">{{ letture.paginator.count }} letture</span>
+    </div>
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Valore</th>
+                        <th>Fattura</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for lettura in letture %}
+                    <tr>
+                        <td>{{ lettura.data|date:"d/m/Y" }}</td>
+                        <td>{{ lettura.valore }} m³</td>
+                        <td>
+                            {% if lettura.fattura %}
+                            <a href="{% url 'fattura_letture' lettura.fattura.pk %}">Fattura #{{ lettura.fattura.codice }}</a>
+                            {% else %}
+                            <span class="text-muted">Non fatturata</span>
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="3" class="text-center py-4">
+                            <div class="empty-state">
+                                <i class="fa-solid fa-chart-line empty-icon"></i>
+                                <h5>Nessuna lettura trovata</h5>
+                                <p>Aggiungi una nuova lettura per questa utenza</p>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+        
+        <div id="ajax-pagination" class="card-footer bg-white border-0">
+            <nav>
+                <ul class="pagination justify-content-center mb-0">
+                    {% if letture.has_previous %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ letture.previous_page_number }}">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                    
+                    {% for num in letture.paginator.page_range %}
+                    <li class="page-item {% if letture.number == num %}active{% endif %}">
+                        <a class="page-link" href="?page={{ num }}">{{ num }}</a>
+                    </li>
+                    {% endfor %}
+                    
+                    {% if letture.has_next %}
+                    <li class="page-item">
+                        <a class="page-link" href="?page={{ letture.next_page_number }}">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+{% endblock %}

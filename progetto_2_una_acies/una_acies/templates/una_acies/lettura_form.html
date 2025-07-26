@@ -5,11 +5,7 @@
         <div class="card shadow-sm border-0 mt-4">
             <div class="card-header fucsia-header">
                 <h4 class="mb-0">
-                    {% if form.instance.pk %}
-                        <i class="fa-solid fa-pen-to-square"></i> Modifica Utenza
-                    {% else %}
-                        <i class="fa-solid fa-plus"></i> Aggiungi Utenza
-                    {% endif %}
+                    <i class="fa-solid fa-plus"></i> Aggiungi Lettura per Utenza #{{ utenza.codice }}
                 </h4>
             </div>
             <div class="card-body">
@@ -18,7 +14,7 @@
                     {{ form.as_p }}
                     <div class="d-flex justify-content-between mt-3">
                         <button type="submit" class="btn btn-fucsia btn-action"><i class="fa-solid fa-save"></i> Salva</button>
-                        <a href="{% url 'utenze_list' %}" class="btn btn-secondary btn-action"><i class="fa-solid fa-arrow-left"></i> Annulla</a>
+                        <a href="{% url 'utenza_letture' utenza.pk %}" class="btn btn-secondary btn-action"><i class="fa-solid fa-arrow-left"></i> Annulla</a>
                     </div>
                 </form>
             </div>

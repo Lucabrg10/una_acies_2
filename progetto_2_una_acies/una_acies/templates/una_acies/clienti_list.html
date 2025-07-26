@@ -1,42 +1,90 @@
 {% extends "una_acies/base.html" %}
-
-{% block sidebar %}
-<h5>Filtri Clienti</h5>
-<form method="get">
-  <div class="mb-3">
-    <label for="citta" class="form-label">Città</label>
-    <input id="citta" name="citta" type="text" class="form-control" value="{{ filtro_citta }}">
-  </div>
-  <div class="mb-3">
-    <label for="ragione" class="form-label">Ragione Sociale</label>
-    <input id="ragione" name="ragione" type="text" class="form-control" value="{{ filtro_ragione }}">
-  </div>
-  <button type="submit" class="btn btn-primary btn-sm">Filtra</button>
-</form>
-{% endblock sidebar %}
-
 {% block content %}
-<h2>Clienti</h2>
-<table class="table table-bordered">
-    <thead>
-        <tr>
-            <th>Codice</th>
-            <th>Codice Fiscale</th>
-            <th>Ragione Sociale</th>
-            <th>Indirizzo</th>
-            <th>Città</th>
-        </tr>
-    </thead>
-    <tbody>
+<h2 class="mb-4"><i class="fa-solid fa-users"></i> Elenco Clienti</h2>
+
+<form method="get" action="" id="filter-form" class="mb-4">
+    <div class="row align-items-end">
+        <div class="col-md-4 mb-3 mb-md-0">
+            <label class="form-label">Città</label>
+            <input type="text" name="citta" class="form-control" placeholder="Città" value="{{ filtro_citta }}">
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+            <label class="form-label">Ragione Sociale</label>
+            <input type="text" name="ragione" class="form-control" placeholder="Ragione Sociale" value="{{ filtro_ragione }}">
+        </div>
+        <div class="col-md-4 text-end">
+            <button type="submit" class="btn btn-fucsia">
+                <i class="fa-solid fa-filter"></i> Filtra
+            </button>
+            <a href="{% url 'clienti_list' %}" class="btn btn-secondary">
+                <i class="fa-solid fa-xmark"></i> Reset
+            </a>
+        </div>
+    </div>
+</form>
+
+<div class="table-responsive">
+    <table class="table table-hover align-middle">
+        <thead>
+            <tr>
+                <th>Ragione Sociale</th>
+                <th>Codice Fiscale</th>
+                <th>Indirizzo</th>
+                <th>Città</th>
+                <th>Azioni</th>
+            </tr>
+        </thead>
+        <tbody>
         {% for cliente in clienti %}
         <tr>
-            <td>{{ cliente.codice }}</td>
-            <td>{{ cliente.codice_fiscale }}</td>
             <td>{{ cliente.ragione_sociale }}</td>
+            <td>{{ cliente.codice_fiscale }}</td>
             <td>{{ cliente.indirizzo }}</td>
             <td>{{ cliente.citta }}</td>
+            <td>
+                <a href="{% url 'utenze_list' %}?cliente={{ cliente.ragione_sociale }}" class="btn btn-info btn-action" title="Visualizza utenze" data-bs-toggle="tooltip">
+                    <i class="fa-solid fa-faucet"></i>
+                </a>
+            </td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="5" class="text-center py-4">
+                <div class="empty-state">
+                    <i class="fa-solid fa-user-slash empty-icon"></i>
+                    <h5>Nessun cliente trovato</h5>
+                    <p>Prova a modificare i filtri</p>
+                </div>
+            </td>
         </tr>
         {% endfor %}
-    </tbody>
-</table>
+        </tbody>
+    </table>
+</div>
+
+<nav class="mt-3">
+    <ul class="pagination justify-content-center">
+        {% if clienti.has_previous %}
+        <li class="page-item">
+            <a class="page-link" href="?page={{ clienti.previous_page_number }}{% for key, value in request.GET.items %}{% if key != 'page' %}&{{ key }}={{ value }}{% endif %}{% endfor %}">
+                <i class="fa-solid fa-chevron-left"></i>
+            </a>
+        </li>
+        {% endif %}
+        
+        {% for num in clienti.paginator.page_range %}
+        <li class="page-item {% if clienti.number == num %}active{% endif %}">
+            <a class="page-link" href="?page={{ num }}{% for key, value in request.GET.items %}{% if key != 'page' %}&{{ key }}={{ value }}{% endif %}{% endfor %}">{{ num }}</a>
+        </li>
+        {% endfor %}
+        
+        {% if clienti.has_next %}
+        <li class="page-item">
+            <a class="page-link" href="?page={{ clienti.next_page_number }}{% for key, value in request.GET.items %}{% if key != 'page' %}&{{ key }}={{ value }}{% endif %}{% endfor %}">
+                <i class="fa-solid fa-chevron-right"></i>
+            </a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>
 {% endblock %}

@@ -1,187 +1,180 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="it">
-
 <head>
     <meta charset="UTF-8" />
-    <title>Distribuzione Acqua</title>
+    <title>{% block title %}Distribuzione Acqua{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <style>
-        :root {
-            --fucsia: #FF00FF;
-            --fucsia-dark: #cc00cc;
-        }
-
-        .text-primary {
-            color: var(--fucsia) !important;
-        }
-
-        .btn-primary {
-            background-color: var(--fucsia) !important;
-            border-color: var(--fucsia) !important;
-            color: #fff !important;
-        }
-
-        .btn-primary:hover,
-        .btn-primary:focus {
-            background-color: var(--fucsia-dark) !important;
-            border-color: var(--fucsia-dark) !important;
-            color: #fff !important;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif, Arial, sans-serif;
-            color: #111;
-            background-color: #FFF0FA;
-        }
-
-        header.bg-primary {
-            background-color: var(--fucsia) !important;
-            border-bottom: none;
-        }
-
-        header.bg-primary h1 {
-            color: #fff;
-            font-weight: 700;
-            margin: 0;
-        }
-
-        nav.navbar {
-            background-color: #fff !important;
-            border-bottom: none !important;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-            /* ombra sottile */
-        }
-
-        .navbar-nav .nav-link {
-            color: var(--fucsia) !important;
-            font-weight: 600;
-            margin: 0 12px;
-            transition: color 0.3s ease;
-        }
-
-        .navbar-nav .nav-link:hover {
-            color: var(--fucsia-dark) !important;
-            text-decoration: underline;
-        }
-
-        .container-fluid.mt-4>.row {
-            display: flex;
-            flex-wrap: nowrap;
-            max-width: 1200px;
-            margin-left: auto;
-            margin-right: auto;
-            gap: 1.5rem;
-        }
-
-        .filter-section {
-            background-color: var(--fucsia);
-            color: #fff;
-            padding: 1.5rem 1.2rem;
-            border-radius: 12px;
-            border: none;
-            flex: 0 0 25%;
-            box-sizing: border-box;
-        }
-
-        .filter-section h5,
-        .filter-section label {
-            color: #fff;
-            font-weight: 600;
-            margin-bottom: 0.6rem;
-        }
-
-        .filter-section select,
-        .filter-section input {
-            width: 100%;
-            background: white;
-            border: 1.5px solid rgba(255, 255, 255, 0.7);
-            border-radius: 8px;
-            color: black;
-            padding: 0.4rem 0.6rem;
-            font-size: 0.95rem;
-            margin-bottom: 1rem;
-            transition: border-color 0.3s ease;
-        }
-
-        .filter-section select:focus,
-        .filter-section input:focus {
-            outline: none;
-            border-color: #fff;
-            box-shadow: 0 0 8px rgba(255, 0, 255, 0.5);
-        }
-
-        .filter-section button.btn-primary {
-            background-color: #fff !important;
-            color: #FF00FF !important;
-            border: 2px solid #fff !important;
-            border-radius: 12px;
-            font-weight: 600;
-            width: 100%;
-            padding: 0.5rem 0;
-            transition: all 0.3s ease;
-        }
-
-        .filter-section button.btn-primary:hover {
-            background-color: #f2f2f2 !important;
-            color: #cc00cc !important;
-            border-color: #f2f2f2 !important;
-        }
-
-
-        main.col-md-9 {
-            background: #fff;
-            border-radius: 12px;
-            padding: 2rem;
-            box-shadow: 0 0 15px rgba(255, 0, 255, 0.08);
-            color: #111;
-            flex: 1;
-            box-sizing: border-box;
-        }
-
-        footer.custom-footer {
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-            background-color: #fff;
-            color: var(--fucsia);
-            font-size: 0.9rem;
-            border-top: none;
-            margin: 0;
-        }
-    </style>
+    :root {
+        --fucsia: #FF00FF;
+        --fucsia-dark: #cc00cc;
+    }
+    
+    body {
+        background-color: #FFF0FA;
+        font-family: 'Inter', Arial, sans-serif;
+        zoom: 1;
+    }
+    
+    .navbar {
+        background-color: var(--fucsia) !important;
+    }
+    
+    .navbar .nav-link, .navbar-brand {
+        color: #fff !important;
+        font-weight: 600;
+    }
+    
+    .navbar .nav-link.active, .navbar .nav-link:hover {
+        color: var(--fucsia-dark) !important;
+        text-decoration: underline;
+    }
+    
+    .btn-primary, .btn-fucsia {
+        background-color: var(--fucsia) !important;
+        border-color: var(--fucsia) !important;
+        color: #fff !important;
+    }
+    
+    .btn-primary:hover, .btn-fucsia:hover {
+        background-color: var(--fucsia-dark) !important;
+        border-color: var(--fucsia-dark) !important;
+    }
+    
+    .btn-action {
+        font-size: 0.9rem;
+        padding: 0.3rem 0.6rem;
+        margin-right: 0.2rem;
+        border-radius: 20px;
+    }
+    
+    .table thead th {
+        background-color: #FF00FF !important;
+        color: #fff !important;
+        font-weight: bold;
+        border-bottom: 2px solid #FF00FF !important;
+    }
+    
+    .pagination .page-link {
+        color: var(--fucsia) !important;
+        border-color: var(--fucsia) !important;
+    }
+    
+    .pagination .active .page-link {
+        background-color: var(--fucsia) !important;
+        border-color: var(--fucsia-dark) !important;
+        color: #fff !important;
+    }
+    
+    footer {
+        background-color: var(--fucsia);
+        color: #fff;
+        text-align: center;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+    
+    .status-badge {
+        padding: 0.25rem 0.5rem;
+        border-radius: 1rem;
+        display: inline-flex;
+        align-items: center;
+        gap: 0.25rem;
+        font-size: 0.85rem;
+    }
+    
+    .status-active {
+        background-color: #d4edda;
+        color: #155724;
+    }
+    
+    .status-inactive {
+        background-color: #f8d7da;
+        color: #721c24;
+    }
+    
+    .empty-icon {
+        font-size: 3rem;
+        color: #ccc;
+        margin-bottom: 1rem;
+    }
+    
+    .empty-state {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 0;
+    }
+    
+    .table th, .table td {
+        font-size: 0.95rem;
+        vertical-align: middle;
+    }
+</style>
 </head>
-
 <body>
-    <header class="bg-primary text-center py-3">
-        {% load static %}
-        <img src="{% static 'logo4.png' %}" alt="Logo" style="max-width: 150px; height: auto;">
-    </header>
-
-    <nav class="navbar navbar-expand-lg px-4">
-        <div class="container justify-content-center">
-            <div class="navbar-nav">
-                <a class="nav-link" href="{% url 'clienti_list' %}">CLIENTI</a>
-                <a class="nav-link" href="{% url 'utenze_list' %}">UTENZE</a>
-                <a class="nav-link" href="{% url 'fatture_list' %}">FATTURE</a>
-            </div>
+    <nav class="navbar navbar-expand-lg mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'utenze_list' %}">
+                <img src="{% static 'logo4.png' %}" alt="Logo" style="height:32px;vertical-align:middle;">
+                Distribuzione Acqua
+            </a>
+            <div class="navbar-nav ms-auto">
+    <a class="nav-link {% if request.path == '/clienti/' %}active{% endif %}" href="{% url 'clienti_list' %}">
+        <i class="fa-solid fa-users"></i> Clienti
+    </a>
+    <a class="nav-link {% if request.path == '/utenze/' or request.path == '/' %}active{% endif %}" href="{% url 'utenze_list' %}">
+        <i class="fa-solid fa-faucet"></i> Utenze
+    </a>
+    <a class="nav-link {% if request.path == '/fatture/' %}active{% endif %}" href="{% url 'fatture_list' %}">
+        <i class="fa-solid fa-file-invoice-dollar"></i> Fatture
+    </a>
+</div>
         </div>
     </nav>
-
-    <div class="container-fluid mt-4">
-        <div class="row gx-4">
-            {% if not request.GET.hide_filters %}
-            <aside class="col-md-3 filter-section">
-                {% block sidebar %}{% endblock sidebar %}
-            </aside>
-            {% endif %}
-
-            <main class="col-md-9">
-                {% block content %}{% endblock content %}
-            </main>
-        </div>
+    <div class="container">
+        {% block content %}{% endblock %}
     </div>
-
-    <footer class="custom-footer  text-center py-3 mt-4">
-        <p style="margin: 0;">&copy; 2025 Distribuzione Acqua</p>
+    <footer>
+        &copy; 2025 Distribuzione Acqua
     </footer>
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Gestione dei form di filtro
+    const filterForms = document.querySelectorAll('form[id="filter-form"]');
+    filterForms.forEach(form => {
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Rimuovi campi vuoti dal form prima di inviare
+            const inputs = form.querySelectorAll('input, select');
+            inputs.forEach(input => {
+                if (input.value === '' || input.value === null) {
+                    input.disabled = true;
+                }
+            });
+            
+            // Invia il form
+            this.submit();
+            
+            // Riabilita i campi per eventuali utilizzi futuri
+            inputs.forEach(input => {
+                input.disabled = false;
+            });
+        });
+    });
+    
+    // Inizializza i tooltip di Bootstrap
+    const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    if (tooltipTriggerList.length > 0) {
+        tooltipTriggerList.map(function (tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl)
+        });
+    }
+});
+</script>
 </body>
-
 </html>

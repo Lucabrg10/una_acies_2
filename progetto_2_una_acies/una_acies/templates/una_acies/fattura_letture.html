@@ -1,0 +1,78 @@
+{% extends "una_acies/base.html" %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2><i class="fa-solid fa-chart-line"></i> Letture della Fattura #{{ fattura.codice }}</h2>
+    <a href="{% url 'fatture_list' %}" class="btn btn-secondary btn-action">
+        <i class="fa-solid fa-arrow-left"></i> Torna alle fatture
+    </a>
+</div>
+
+<div class="card mb-4">
+    <div class="card-header fucsia-header">
+        <h5 class="mb-0">Dettagli Fattura</h5>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-3">
+                <p><strong>Data:</strong> {{ fattura.data|date:"d/m/Y" }}</p>
+            </div>
+            <div class="col-md-3">
+                <p><strong>Imponibile:</strong> € {{ fattura.imponibile }}</p>
+            </div>
+            <div class="col-md-3">
+                <p><strong>IVA:</strong> € {{ fattura.iva }}</p>
+            </div>
+            <div class="col-md-3">
+                <p><strong>Totale:</strong> <span class="fw-bold">€ {{ fattura.totale }}</span></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="card">
+    <div class="card-header fucsia-header d-flex justify-content-between align-items-center">
+        <h5 class="mb-0">Letture associate</h5>
+        <span class="badge bg-light text-dark">{{ letture.count }} letture</span>
+    </div>
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead>
+                    <tr>
+                        <th>Utenza</th>
+                        <th>Data</th>
+                        <th>Valore</th>
+                        <th>Azioni</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for lettura in letture %}
+                    <tr>
+                        <td>{{ lettura.utenza }}</td>
+                        <td>{{ lettura.data|date:"d/m/Y" }}</td>
+                        <td>{{ lettura.valore }} m³</td>
+                        <td>
+                            <div class="d-flex">
+                                <a href="{% url 'utenza_letture' lettura.utenza.pk %}" class="btn btn-info btn-action" title="Tutte le letture" data-bs-toggle="tooltip">
+                                    <i class="fa-solid fa-list"></i> Dettagli utenza
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="4" class="text-center py-4">
+                            <div class="empty-state">
+                                <i class="fa-solid fa-chart-line empty-icon"></i>
+                                <h5>Nessuna lettura associata</h5>
+                                <p>Questa fattura non ha letture associate</p>
+                            </div>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
