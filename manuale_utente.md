@@ -34,7 +34,7 @@ cd progetti_django
 
 Se disponibile tramite Git:
 ```cmd
-git clone [URL_DEL_REPOSITORY]
+git clone https://github.com/Lucabrg10/una_acies_2.git
 cd progetto_2_una_acies
 ```
 
@@ -57,6 +57,7 @@ python manage.py migrate
 ## Avvio del Progetto
 
 ### 1. Avviare il Server di Sviluppo
+Navigare nella cartella progetto_2_una_acies:
 ```cmd
 python manage.py runserver
 ```
@@ -70,73 +71,6 @@ python manage.py runserver
 - Premere `Ctrl + C` nel Prompt dei Comandi
 - Il server si arresterà
 
-## Utilizzo del Sistema
-
-### Navigazione Principale
-Il sistema presenta tre sezioni principali:
-
-#### 1. **Clienti** - Solo visualizzazione
-- Visualizzare elenco clienti
-- Filtrare per città e ragione sociale
-- Consultare dettagli anagrafica
-
-#### 2. **Utenze** - Gestione completa
-- Visualizzare tutte le utenze
-- Aggiungere nuove utenze
-- Modificare utenze esistenti
-- Eliminare utenze
-- Filtrare per cliente, città, stato e date
-
-#### 3. **Fatture** - Solo visualizzazione
-- Consultare elenco fatture
-- Filtrare per date e importi
-- Visualizzare dettagli fatturazione
-
-### Funzionalità Principali
-
-#### Gestione Utenze
-1. **Visualizzazione**
-   - Cliccare su "Utenze" nel menu
-   - Utilizzare i filtri per ricerche specifiche
-   - Cliccare "Filtra" per applicare i criteri
-   - Cliccare "Reset" per eliminare i filtri
-
-2. **Aggiunta Nuova Utenza**
-   - Cliccare "Nuova Utenza"
-   - Compilare tutti i campi obbligatori
-   - Selezionare il cliente dall'elenco
-   - Scegliere lo stato (attivo/inattivo)
-   - Cliccare "Salva"
-
-3. **Modifica Utenza**
-   - Individuare l'utenza nell'elenco
-   - Cliccare l'icona "Modifica" (matita)
-   - Modificare i campi necessari
-   - Cliccare "Salva"
-
-4. **Eliminazione Utenza**
-   - Individuare l'utenza nell'elenco
-   - Cliccare l'icona "Elimina" (cestino)
-   - Confermare l'eliminazione
-   - **Attenzione**: Non sarà possibile eliminare utenze con letture associate
-
-#### Gestione Letture
-1. **Visualizzazione Letture**
-   - Dall'elenco utenze, cliccare l'icona "Visualizza letture"
-   - Consultare lo storico delle letture
-
-2. **Aggiunta Nuova Lettura**
-   - Nella pagina letture utenza, cliccare "Nuova Lettura"
-   - Inserire data e valore
-   - Selezionare fattura (opzionale)
-   - Cliccare "Salva"
-
-#### Filtri e Ricerche
-- **Filtro Clienti**: Cercare per ragione sociale o codice fiscale
-- **Filtro Città**: Inserire nome città
-- **Filtro Stato**: Selezionare attivo/inattivo
-- **Filtro Date**: Utilizzare selettore calendario
-- **Filtro Importi**: Inserire valori numerici
 
 ## Risoluzione Problemi
 
